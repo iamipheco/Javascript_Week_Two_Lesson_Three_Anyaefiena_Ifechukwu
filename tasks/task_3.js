@@ -11,5 +11,5 @@ const myPersonalinfo = {
 }
 
 for (const key in myPersonalinfo) {
-  console.log(key + ': ' + myPersonalinfo[key])
+  console.log(`${key} : ${myPersonalinfo[key]}`)
 }
